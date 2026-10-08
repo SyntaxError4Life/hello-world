@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
-echo "Hello" $1
 
-
-
-
+read -r -p "Prénom : " name
+echo "Hello $name"
