@@ -34,4 +34,35 @@ $ ./hello.sh tata
 Hello tata
 ```
 
-Commitez et pushez les modifications sur votre fork
+## Exercice 3
+
+Faites en sorte que le script demande un nom et l'affiche, comme cela :
+
+```bash
+$ ./hello.sh
+Prénom : toto
+Hello toto
+$ ./hello.sh     
+Prénom : tata 
+Hello tata
+```
+
+### Exercice 4
+
+Améliorez le script où si :
+1. Un argument est donné on affiche "Hello $1"
+2. Deux arguments sont donnés on affiche "Hello $1 and $2"
+3. Trois arguments sont donnés on affiche "Hello everyone"
+
+Comme cela :
+```bash
+$ ./hello.sh toto
+Hello toto
+$ ./hello.sh toto tata
+Hello toto and tata
+$ ./hello.sh toto tata titi
+Hello everyone
+```
+
+### Exercice 5
+
